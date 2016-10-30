@@ -28,6 +28,7 @@ Débutant #1 : Blend c'est le mix, donc tous les profils sont le bienvenue à vo
 	- un peu technique
 	- pas que pour les débutants
 - Introduction
+  - Qui nous sommes
 	- définitions
 	- notre approche / notre perception
 	- Suisse = 4 langues officielles
