@@ -43,7 +43,7 @@ body {
   background-color: #eaf0f0; }
 
 .reveal {
-  font-family: "NotoSans-Regular", "Oxygen", "Helvetica Neue", sans-serif;
+  font-family: "Noto Sans", "Helvetica Neue", sans-serif;
   font-size: 36px;
   font-weight: normal;
   color: #000032; }
@@ -69,7 +69,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #000032;
-  font-family: "NotoSans-Bold", "Oxygen", "Helvetica Neue", sans-serif;
+  font-family: "NotoSans-Bold", "Helvetica Neue", sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
