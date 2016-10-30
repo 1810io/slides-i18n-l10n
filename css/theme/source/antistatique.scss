@@ -15,19 +15,56 @@
 
 
 // Include theme-specific fonts
-//@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700,300);
 
+/* Noto Regular */
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('NotoSans-Regular.eot'); /* IE9 Compat Modes */
+  src: url('NotoSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('NotoSans-Regular.woff') format('woff'), /* Modern Browsers */
+       url('NotoSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('NotoSans-Regular.svg#377eef1e4fc2d962036276c2f092ab63') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+/* Noto Bold */
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('NotoSans-Bold.eot'); /* IE9 Compat Modes */
+  src: url('NotoSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('NotoSans-Bold.woff') format('woff'), /* Modern Browsers */
+       url('NotoSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('NotoSans-Bold.svg#def471b0f6464092d3c2c29b3a4952dd') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+/* Noto Mono */
+@font-face {
+  font-family: 'Noto Mono';
+  src: url('NotoMono-Regular.eot'); /* IE9 Compat Modes */
+  src: url('NotoMono-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('NotoMono-Regular.woff') format('woff'), /* Modern Browsers */
+       url('NotoMono-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('NotoMono-Regular.svg#714a69ccf58c189f42104689b1b5f97b') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
 
 // Override theme settings (see ../template/settings.scss)
-$mainFont: 'DagnyPro-Exlig', 'Oxygen', 'Helvetica Neue', sans-serif;
+$mainFont: 'NotoSans-Regular', 'Oxygen', 'Helvetica Neue', sans-serif;
 $mainColor: #000032;
-$headingFont: 'DagnyPro-Bold', 'Oxygen', 'Helvetica Neue', sans-serif;
+$headingFont: 'NotoSans-Bold', 'Oxygen', 'Helvetica Neue', sans-serif;
 $headingColor: #000032;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $backgroundColor: #eaf0f0;
-$linkColor: #ef2678;
-$linkColorHover: darken( $linkColor, 20% );
+$linkColor: #e30074;
+$linkColorHover: #a60055;
 $selectionBackgroundColor: rgba(0, 0, 0, 0.5);
 
 

@@ -5,6 +5,36 @@
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
+/* Noto Regular */
+@font-face {
+  font-family: 'Noto Sans';
+  src: url("NotoSans-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("NotoSans-Regular.eot?#iefix") format("embedded-opentype"), url("NotoSans-Regular.woff") format("woff"), url("NotoSans-Regular.ttf") format("truetype"), url("NotoSans-Regular.svg#377eef1e4fc2d962036276c2f092ab63") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+
+/* Noto Bold */
+@font-face {
+  font-family: 'Noto Sans';
+  src: url("NotoSans-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("NotoSans-Bold.eot?#iefix") format("embedded-opentype"), url("NotoSans-Bold.woff") format("woff"), url("NotoSans-Bold.ttf") format("truetype"), url("NotoSans-Bold.svg#def471b0f6464092d3c2c29b3a4952dd") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 700; }
+
+/* Noto Mono */
+@font-face {
+  font-family: 'Noto Mono';
+  src: url("NotoMono-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("NotoMono-Regular.eot?#iefix") format("embedded-opentype"), url("NotoMono-Regular.woff") format("woff"), url("NotoMono-Regular.ttf") format("truetype"), url("NotoMono-Regular.svg#714a69ccf58c189f42104689b1b5f97b") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -13,7 +43,7 @@ body {
   background-color: #eaf0f0; }
 
 .reveal {
-  font-family: "DagnyPro-Exlig", "Oxygen", "Helvetica Neue", sans-serif;
+  font-family: "NotoSans-Regular", "Oxygen", "Helvetica Neue", sans-serif;
   font-size: 36px;
   font-weight: normal;
   color: #000032; }
@@ -39,7 +69,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #000032;
-  font-family: "DagnyPro-Bold", "Oxygen", "Helvetica Neue", sans-serif;
+  font-family: "NotoSans-Bold", "Oxygen", "Helvetica Neue", sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
@@ -203,20 +233,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #ef2678;
+  color: #e30074;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #a30c4a;
+  color: #a60055;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #bb0e54; }
+  background: #97004d; }
 
 /*********************************************
  * IMAGES
@@ -238,7 +268,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #ef2678;
+  border-color: #e30074;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -246,31 +276,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #ef2678; }
+  border-right-color: #e30074; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #ef2678; }
+  border-left-color: #e30074; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #ef2678; }
+  border-bottom-color: #e30074; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #ef2678; }
+  border-top-color: #e30074; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #a30c4a; }
+  border-right-color: #a60055; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #a30c4a; }
+  border-left-color: #a60055; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #a30c4a; }
+  border-bottom-color: #a60055; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #a30c4a; }
+  border-top-color: #a60055; }
 
 /*********************************************
  * PROGRESS BAR
@@ -279,9 +309,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #ef2678;
+  background: #e30074;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
-
-/*# sourceMappingURL=antistatique.css.map */
