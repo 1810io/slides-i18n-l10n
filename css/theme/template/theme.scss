@@ -271,6 +271,7 @@ body {
 	.reveal section img.plain {
 		border: 0;
 		box-shadow: none;
+		background: transparent;
 	}
 
 	.reveal a img {
@@ -342,5 +343,3 @@ body {
 		   -moz-transition: width 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
 		        transition: width 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
 	}
-
-

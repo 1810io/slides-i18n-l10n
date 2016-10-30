@@ -14,7 +14,6 @@
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
-
 /* Noto Bold */
 @font-face {
   font-family: 'Noto Sans';
@@ -24,7 +23,6 @@
   /* Legacy iOS */
   font-style: normal;
   font-weight: 700; }
-
 /* Noto Mono */
 @font-face {
   font-family: 'Noto Mono';
@@ -34,7 +32,6 @@
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
-
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -259,7 +256,8 @@ body {
 
 .reveal section img.plain {
   border: 0;
-  box-shadow: none; }
+  box-shadow: none;
+  background: transparent; }
 
 .reveal a img {
   -webkit-transition: all .15s linear;
@@ -316,3 +314,5 @@ body {
 
 .emoji-svg {
   min-width: 40vmax; }
+
+/*# sourceMappingURL=antistatique.css.map */
