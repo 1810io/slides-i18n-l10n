@@ -105,6 +105,25 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.5);
 }
 
 /*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+  color: #e30074;
+  text-decoration: underline;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  transition: color .15s ease; }
+
+.reveal a:hover {
+  color: #a60055;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #000032; }
+
+/*********************************************
  * CUSTOM STYLES
  *********************************************/
 
