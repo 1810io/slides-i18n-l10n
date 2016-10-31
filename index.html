@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>i18n & l10n — Internationalisation & localisation</title>
+		<title>i18n & l10n @ Blenc Web Mix</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/antistatique.css">
@@ -12,7 +12,39 @@
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
+		<style type="text/css" media="screen">
+			.slides section.has-dark-background,
+			.slides section.has-dark-background h1, h2, h3, h4, h5, h6 {
+				color: #fff;
+			}
+			.slides section.has-light-background,
+			.slides section.has-light-background h1, h2, h3, h4, h5, h6 {
+				color: #000032;
+			}
+		</style>
+
+		<!--
+
+		# Primary palette
+		
+			White:				#ffffff
+			Digital-dust: 		#eaf0f0
+			Pinkstatik: 		#e30074
+			Pinkstatik-dark: 	#a60055
+			Ninja-grey:			#808098
+			Midnight-blue:		#000032
+		
+		# Secondary palette
+			
+			Purple:				#b400dc
+			Electric-blue:		#40b3ff
+			Strawberry:			#d2005a
+			Sunshine:			#ff9600
+
+		-->
+
+
+	<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
@@ -24,39 +56,129 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					<h1>i18n et l10n</h1>
+
+				<section data-background="#e30074">
+					<img class="plain emoji-svg" src="/lib/svg/emoji/1f957.svg">
+					<aside class="notes">
+						Slide d'attente
+					</aside>
 				</section>
+
+				<section data-background="#000032">
+					<img src="lib/svg/1810.svg" style="width:40%;"><br>
+					i18n et l10n — Internationalisation & Localisation
+					<aside class="notes">
+						Slide de titre
+					</aside>
+				</section>
+
 				<section>
+					<h2>
+						<span class="fragment">Bonjour</span> · <span class="fragment">Hallo</span> · <span class="fragment">Hello<br>
+						Ciao</span> · <span class="fragment">صباح الخير</span> · <span class="fragment">你好<br>
+						Hej</span> · <span class="fragment">おはようございます<br>
+						Hola</span> · <span class="fragment">Grützi</span> · <span class="fragment">Hei<br>
+						Добрий ранок</span> · <span class="fragment">Chào</span>
+					</h2>
+					<aside class="notes">
+						<li>Je suis Marc</li>
+						<li>Je suis Guillaume</li>
+					</aside>
+				</section>
+
+				<section data-background="#e30074">
+					<h1>Disclaimer</h1>
+					<aside class="notes">
+						<li>Apparement vous avez le droit à 2 speakers</li>
+						<li>Pas que design</li>
+						<li>Un peu technique</li>
+						<li>Pas que pour les débutants</li>
+						<li>Ce talk contient des métaphores culinaires</li>
+					</aside>
+				</section>
+
+				<section>
+
+					<section data-background="#000032">
+						<h1>Introduction</h1>
+						<aside class="notes">
+							Définir ces termes et ce qu'on cherche à résoudre / améliorer
+						</aside>
+					</section>
+
+					<section data-background="#000032">
+						<img src="lib/svg/emoji/1f1e8-1f1ed.svg" style="width:66%;">
+						<aside class="notes">
+							La suisse : 4 langues officielles (FR / DE / IT / RM)
+						</aside>
+					</section>
+
 					<section>
-						<h2>Disclaimer</h2>
-						<p>
-							pas que design
-						</p>
-						<p>
-							un peu technique
-						</p>
-						<p>
-							pas que pour les débutants
-						</p>
-						<p>
-							Métaphores culinaires
-							<br>
-							<img class="plain emoji-svg" src="/lib/svg/emoji/1f957.svg">
-						</p>
+						<h1 class="monospaced">l10n</h1>
+						<aside class="notes">
+							Commençons par le terme l10n : localisation<br>
+							On pourrait presque lire le mot Lyon !
+						</aside>
 					</section>
-				</section>
-				<section>
-					<section data-background="/lib/svg/emoji/1f957.svg">
 
+					<section data-background="lib/svg/l10n-count.svg" data-background-size="100%">
+						<aside class="notes">
+							localisation
+						</aside>
 					</section>
+
+					<section>
+						<h1 class="monospaced">i18n</h1>
+						<aside class="notes">
+							Ensuite le i18n : internationalisation<br>
+						</aside>
+					</section>
+
+					<section data-background="lib/svg/i18n-count.svg" data-background-size="100%">
+						<aside class="notes">
+							internationalisation
+						</aside>
+					</section>
+
+					<section>
+						<h2 class="monospaced">l10n</h2>
+						<h2 class="monospaced">i18n</h2>
+						<h2 class="monospaced">g11n</h2>
+						<h2 class="monospaced">L12y</h2>
+						<h2 class="monospaced">NLS&nbsp;</h2>
+						<aside class="notes">
+							Bienvenue dans le monde des numéronymes & accronymes !<br>
+							<li><strong>g11n</strong> chez IBM & Sun Microsystems (globalization / glocalization)</li>
+							<li><strong>L12y</strong> chez Microsoft pour localizability</li>
+							<li><strong>NLS</strong> chez Hewlett-Packard pour National Language Support ou Native Language Support</li>
+						</aside>
+					</section>
+
 					<section data-background="/lib/img/osakan_market.jpg" data-background-size="cover">
-
+						<h1 class="light dark-shadow">Cultures ?</h1>
+						<aside class="notes">
+							Est-ce que la culture d'une personne peut être définie par un ensemble qui se compose d'un territoires et d'une langue ?
+						</aside>
 					</section>
+
+					<section data-background="/lib/img/osakan_market.jpg" data-background-size="cover">
+						<h1 class="light dark-shadow">Normes ?</h1>
+						<aside class="notes">
+							Normes ISO / normes sociales
+						</aside>
+					</section>
+
+					<section data-background="lib/svg/emoji/1f5fa.svg" style="#000032" data-background-size="50%">
+						<aside class="notes">
+							Le thème que les organisateurs de la conférence nous ont demandé de souligner est :
+							“L'impact social et sociétal du web, comment il change le monde”
+						</aside>
+					</section>
+
 					<section>
 						<h2>Introduction</h2>
 						<aside class="notes">
-							Bonjour, Nous sommes Guillaume et Marc \o/
+							
 						</aside>
 					</section>
 					<section>
@@ -80,12 +202,12 @@
 						Exemples :-)
 						- Le formattage des milliers
 						<code>
-<pre>
-fr_CH 12'340.40
-fr_FR 12 340,40
-en_US 12,340.40
-de_DE 12.340,40
-</pre>
+							<pre>
+							fr_CH 12'340.40
+							fr_FR 12 340,40
+							en_US 12,340.40
+							de_DE 12.340,40
+							</pre>
 						</code>
 					</section>
 					<section>
@@ -130,7 +252,7 @@ de_DE 12.340,40
 						<ul>
 							<li>Timezone</li>
 							<li>Début de semaine</li>
-							<li>L'âge des coréens🇰🇷 (qui dépend des calendrier 🌞/🌔)</li>
+							<li>L'âge des coréens🇰🇷 (qui dépend des calendriers 🌞/🌔)</li>
 							<li>Le week-end prochain</li>
 						</ul>
 					</section>
@@ -231,7 +353,6 @@ de_DE 12.340,40
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
-
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
