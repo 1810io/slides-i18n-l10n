@@ -66,7 +66,8 @@
 
 				<section data-background="#000032">
 					<img src="lib/svg/1810.svg" style="width:40%;"><br>
-					i18n et l10n — Internationalisation & Localisation
+					<strong>i18n et l10n</strong><br>
+					Internationalisation & Localisation
 					<aside class="notes">
 						Slide de titre
 					</aside>
@@ -74,11 +75,11 @@
 
 				<section>
 					<h2>
-						<span class="fragment">Bonjour</span> · <span class="fragment">Hallo</span> · <span class="fragment">Hello<br>
-						Ciao</span> · <span class="fragment">صباح الخير</span> · <span class="fragment">你好<br>
-						Hej</span> · <span class="fragment">おはようございます<br>
-						Hola</span> · <span class="fragment">Grützi</span> · <span class="fragment">Hei<br>
-						Добрий ранок</span> · <span class="fragment">Chào</span>
+						Bonjour · Hallo · Hello<br>
+						Ciao · صباح الخير · 你好<br>
+						Hej · おはようございます<br>
+						Hola · Grützi · Hei<br>
+						Добрий ранок · Chào
 					</h2>
 					<aside class="notes">
 						<li>Je suis Marc</li>
@@ -168,7 +169,7 @@
 						</aside>
 					</section>
 
-					<section data-background="lib/svg/emoji/1f5fa.svg" style="#000032" data-background-size="50%">
+					<section data-background="lib/svg/emoji/1f5fa.svg" data-background="#000032" data-background-size="50%">
 						<aside class="notes">
 							Le thème que les organisateurs de la conférence nous ont demandé de souligner est :
 							“L'impact social et sociétal du web, comment il change le monde”
@@ -181,17 +182,7 @@
 							
 						</aside>
 					</section>
-					<section>
-						<h2>Définitions</h2>
-					</section>
-					<section>
-						<p>i18n</p>
-						<h3>Internationalisation</h3>
-					</section>
-					<section>
-						<p>l10n</p>
-						<h3>localisation</h3>
-					</section>
+
 					<section>
 						Culture en français -> Locale
 						<h3>Langue + Script + Territoire</h3>
@@ -199,24 +190,76 @@
 						<h2>fr_CH</h2>
 					</section>
 					<section>
-						Exemples :-)
-						- Le formattage des milliers
-						<code>
-							<pre>
-							fr_CH 12'340.40
-							fr_FR 12 340,40
-							en_US 12,340.40
-							de_DE 12.340,40
-							</pre>
-						</code>
+						<h3>Exemple… Les sous !</h3>
+						<p>Le formatage des milliers</p>
+						<table>
+						<thead>
+							<tr>
+								<th>Locale</th>
+								<th align="right" style="padding-right: 0!important;">Valeur</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>fr_CH</td>
+								<td align="right">12'340.40</td>
+							</tr>
+							<tr>
+								<td>fr_FR</td>
+								<td align="right">12 340,40</td>
+							</tr>
+							<tr>
+								<td>en_US</td>
+								<td align="right">12,340.40</td>
+							</tr>
+							<tr>
+								<td>de_DE</td>
+								<td align="right">12.340,40</td>
+							</tr>
+						</tbody>
+					</table>
 					</section>
+
+					<section>
+						<h3>Exemple… Les sous !</h3>
+						<p>La position de la devise</p>
+						<table>
+						<thead>
+							<tr>
+								<th>Locale</th>
+								<th align="right" style="padding-right: 0!important;">Valeur</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>fr_CH</td>
+								<td align="right">CHF 12'340.40</td>
+							</tr>
+							<tr>
+								<td>fr_FR</td>
+								<td align="right">12 340,40 €</td>
+							</tr>
+							<tr>
+								<td>en_US</td>
+								<td align="right">$ 12,340.40</td>
+							</tr>
+							<tr>
+								<td>de_DE</td>
+								<td align="right">12.340,40 €</td>
+							</tr>
+						</tbody>
+					</table>
+					</section>
+
 					<section>
 						Connaître la "locale" de l'utilisateur c'est important ... comment est-ce qu'on la lui demande ?
 					</section>
 				</section>
 				<section>
-					<section>
-						<h2>Connaitre l'utilisateur</h2>
+					<section data-background="#000032">
+						<h1 class="light">Connaître les gens
+						<img src="/lib/svg/emoji/1f648.svg">&nbsp;<img class="plain" src="/lib/svg/emoji/1f649.svg">&nbsp;<img class="plain" src="/lib/svg/emoji/1f64a.svg">
+						</h1>
 					</section>
 					<section>
 						<h3>Détection automatique de la langue</h3>
