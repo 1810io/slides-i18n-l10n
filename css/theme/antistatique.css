@@ -8,9 +8,9 @@
 /* Noto Regular */
 @font-face {
   font-family: 'Noto Sans';
-  src: url("NotoSans-Regular.eot");
+  src: url("../../lib/font/noto/NotoSans-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("NotoSans-Regular.eot?#iefix") format("embedded-opentype"), url("NotoSans-Regular.woff") format("woff"), url("NotoSans-Regular.ttf") format("truetype"), url("NotoSans-Regular.svg#377eef1e4fc2d962036276c2f092ab63") format("svg");
+  src: url("../../lib/font/noto/NotoSans-Regular.eot?#iefix") format("embedded-opentype"), url("../../lib/font/noto/NotoSans-Regular.woff") format("woff"), url("../../lib/font/noto/NotoSans-Regular.ttf") format("truetype"), url("../../lib/font/noto/NotoSans-Regular.svg#377eef1e4fc2d962036276c2f092ab63") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
@@ -18,9 +18,9 @@
 /* Noto Bold */
 @font-face {
   font-family: 'Noto Sans';
-  src: url("NotoSans-Bold.eot");
+  src: url("../../lib/font/noto/NotoSans-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("NotoSans-Bold.eot?#iefix") format("embedded-opentype"), url("NotoSans-Bold.woff") format("woff"), url("NotoSans-Bold.ttf") format("truetype"), url("NotoSans-Bold.svg#def471b0f6464092d3c2c29b3a4952dd") format("svg");
+  src: url("../../lib/font/noto/NotoSans-Bold.eot?#iefix") format("embedded-opentype"), url("../../lib/font/noto/NotoSans-Bold.woff") format("woff"), url("../../lib/font/noto/NotoSans-Bold.ttf") format("truetype"), url("../../lib/font/noto/NotoSans-Bold.svg#def471b0f6464092d3c2c29b3a4952dd") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 700; }
@@ -28,9 +28,9 @@
 /* Noto Mono */
 @font-face {
   font-family: 'Noto Mono';
-  src: url("NotoMono-Regular.eot");
+  src: url("../../lib/font/noto/NotoMono-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("NotoMono-Regular.eot?#iefix") format("embedded-opentype"), url("NotoMono-Regular.woff") format("woff"), url("NotoMono-Regular.ttf") format("truetype"), url("NotoMono-Regular.svg#714a69ccf58c189f42104689b1b5f97b") format("svg");
+  src: url("../../lib/font/noto/NotoMono-Regular.eot?#iefix") format("embedded-opentype"), url("../../lib/font/noto/NotoMono-Regular.woff") format("woff"), url("../../lib/font/noto/NotoMono-Regular.ttf") format("truetype"), url("../../lib/font/noto/NotoMono-Regular.svg#714a69ccf58c189f42104689b1b5f97b") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
@@ -380,4 +380,4 @@ body {
   width: 1em; }
 
 .monospaced {
-  font-family: "NotoMono" !important; }
+  font-family: "Noto Mono" !important; }
