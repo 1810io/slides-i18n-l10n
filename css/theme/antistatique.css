@@ -392,3 +392,11 @@ body {
   background-color: #3f3f3f;
   box-shadow: 0 0 0 transparent;
   font-size: 3vh; }
+
+.mini-list .list-element {
+  display: inline-block;
+  background-color: #000032;
+  color: #eaf0f0;
+  font-size: 1.6vh;
+  padding: 0.4em;
+  margin: 0; }
