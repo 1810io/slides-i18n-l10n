@@ -56,7 +56,7 @@
 // Override theme settings (see ../template/settings.scss)
 $mainFont: 'Noto Sans', 'Helvetica Neue', sans-serif;
 $mainColor: #000032;
-$headingFont: 'NotoSans-Bold', 'Helvetica Neue', sans-serif;
+$headingFont: 'Noto Sans', 'Helvetica Neue', sans-serif;
 $headingColor: #000032;
 $headingTextShadow: none;
 $headingTextTransform: none;
@@ -124,6 +124,13 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.5);
   background: #000032; }
 
 /*********************************************
+ * HEADINGS
+ *********************************************/
+ .reveal h1{
+   font-weight: 700;
+ }
+
+/*********************************************
  * CUSTOM STYLES
  *********************************************/
 
@@ -136,3 +143,9 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.5);
 .huge { width: 1em; }
 
 .monospaced { font-family: "Noto Mono"!important; }
+
+.reveal pre{
+  background-color: rgb(63, 63, 63);
+  box-shadow: 0 0 0 transparent;
+  font-size: 3vh;
+}

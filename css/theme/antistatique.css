@@ -69,7 +69,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #000032;
-  font-family: "NotoSans-Bold", "Helvetica Neue", sans-serif;
+  font-family: "Noto Sans", "Helvetica Neue", sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
@@ -362,6 +362,12 @@ body {
   background: #000032; }
 
 /*********************************************
+ * HEADINGS
+ *********************************************/
+.reveal h1 {
+  font-weight: 700; }
+
+/*********************************************
  * CUSTOM STYLES
  *********************************************/
 .light {
@@ -381,3 +387,8 @@ body {
 
 .monospaced {
   font-family: "Noto Mono" !important; }
+
+.reveal pre {
+  background-color: #3f3f3f;
+  box-shadow: 0 0 0 transparent;
+  font-size: 3vh; }
