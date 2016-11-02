@@ -38,8 +38,8 @@
 
 			#current-slide {
 				position: absolute;
-				width: 65%;
-				height: 100%;
+				width: 35%;
+				height: 40%;
 				top: 0;
 				left: 0;
 				padding-right: 0;
@@ -55,13 +55,14 @@
 
 			#speaker-controls {
 				position: absolute;
-				top: 40%;
-				right: 0;
-				width: 35%;
-				height: 60%;
+				top: 0%;
+				right: 35%;
+				left: 35%;
+				width: 30%;
+				height: 40%;
 				overflow: auto;
-
-				font-size: 18px;
+				background-color: white;
+				font-size: 24px;
 			}
 
 				.speaker-controls-time.hidden,
@@ -98,16 +99,17 @@
 
 				.speaker-controls-time .timer,
 				.speaker-controls-time .clock {
-					width: 50%;
-					font-size: 1.9em;
+					width: 100%;
+					font-size: 2.4em;
+					padding-top: 0.4em;
 				}
 
 				.speaker-controls-time .timer {
-					float: left;
+					text-align: right;
 				}
 
 				.speaker-controls-time .clock {
-					float: right;
+
 					text-align: right;
 				}
 
@@ -116,11 +118,18 @@
 				}
 
 				.speaker-controls-notes {
-					padding: 10px 16px;
+					position: fixed;
+					bottom: 2%;
+					right: 2%;
+					left: 2%;
+					width: 96%;
+					height: 50%;
+					overflow: auto;
+					background-color: white;
+					font-size: 30px;
 				}
 
 				.speaker-controls-notes .value {
-					margin-top: 5px;
 					line-height: 1.4;
 					font-size: 1.2em;
 				}
