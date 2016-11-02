@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg>
+<svg version="1.1" id="Olympic_Flag" viewBox="-45 -25 90 60" width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <clipPath id="clip_white">
+      <path d="M 0,0 l -11,-5.5 v 11 L 0,0 l .2,-11 h 10 z"/>
+    </clipPath>
+    <clipPath id="clip_color">
+      <path d="M 0,0 l -11,-11 v 22 L 0,0 v -11 h 11 z"/>
+    </clipPath>
+  </defs>
+  
+
+  <rect x="-45" y="-25" width="90" height="60" fill="white"/>
+  <g fill="none" stroke-width="2" stroke="white">
+    <circle cx="-11" cy="9" r="9" stroke-width="3"/>
+    <circle cx="11" cy="9" r="9" stroke-width="3"/>
+    <circle cx="-11" cy="9" r="9" stroke="#f4c300"/>
+    <circle cx="11" cy="9" r="9" stroke="#009f3d"/>
+    
+    <circle cx="-22" cy="0" r="9" stroke-width="3"/>
+    <circle cx="0" cy="0" r="9" stroke-width="3"/>
+    <circle cx="22" cy="0" r="9" stroke-width="3"/>
+    <circle cx="-22" cy="0" r="9" stroke="#0085c7"/>
+    <circle cx="0" cy="0" r="9" stroke="black"/>
+    <circle cx="22" cy="0" r="9" stroke="#df0024"/>
+    <g transform="translate(-11,9)">
+      <circle r="9" stroke-width="3" clip-path="url(#clip_white)" cx="0" cy="0"/>
+      <circle r="9" stroke="#f4c300" clip-path="url(#clip_color)" cx="0" cy="0"/>
+    </g>
+    <g transform="translate(11,9)">
+      <circle r="9" stroke-width="3" clip-path="url(#clip_white)" cx="0" cy="0"/>
+      <circle r="9" stroke="#009f3d" clip-path="url(#clip_color)" cx="0" cy="0"/>
+    </g>
+  </g>
+</svg>
