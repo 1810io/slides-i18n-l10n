@@ -51,7 +51,7 @@ Débutant #1 : Blend c'est le mix, donc tous les profils sont le bienvenue à vo
 
 
 ## Sources
-- ...
+- [Tool to see locale specificities](https://lh.2xlibre.net/locale/fr_CH/)
 
 
 ## Installation

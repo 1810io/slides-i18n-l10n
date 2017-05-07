@@ -14,7 +14,6 @@
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
-
 /* Noto Bold */
 @font-face {
   font-family: 'Noto Sans';
@@ -24,7 +23,6 @@
   /* Legacy iOS */
   font-style: normal;
   font-weight: 700; }
-
 /* Noto Mono */
 @font-face {
   font-family: 'Noto Mono';
@@ -34,7 +32,6 @@
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400; }
-
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -389,6 +386,7 @@ body {
   font-family: "Noto Mono" !important; }
 
 .reveal pre {
+  font-family: 'Noto Mono';
   background-color: #3f3f3f;
   box-shadow: 0 0 0 transparent;
   font-size: 3vh; }
@@ -400,3 +398,5 @@ body {
   font-size: 1.6vh;
   padding: 0.4em;
   margin: 0; }
+
+/*# sourceMappingURL=antistatique.css.map */
